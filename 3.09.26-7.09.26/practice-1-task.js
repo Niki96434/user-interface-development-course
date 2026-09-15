@@ -41,10 +41,13 @@ export default function firstTask() {
 
     const sum = 0.1 + 0.2;
     console.log(`sum:${sum}`);
+
     const problemAccuracy = 0.3 === sum;
     console.log(`Проблема точности(sum !== 0.3): ${problemAccuracy}`); // из-за того что вычисления с плавающей запятой в двоичном представлении не со всеми могут быть точными(ограничения в 64 бита)
+
     const intValue = 9007199254740993n;
     console.log(intValue);
+
     const bigIntSum1 = intValue + 10n;
     console.log(bigIntSum1);
     // const bigIntSum2 = intValue + 10; // смешивание разных типов - BigInt и number, ошибка
