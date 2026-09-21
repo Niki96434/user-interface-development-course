@@ -48,4 +48,17 @@ export default function secondTask() {
     greetingToUpperCase += letter.toUpperCase();
   });
   console.log(greetingToUpperCase);
+
+  const res = greeting[greeting.indexOf('NAME')];
+  console.log(res);
+
+  const task_9_1 = greeting.includes('name');
+  const task_9_2 = greeting.includes('Javascript');
+  const task_9_3 = greeting.startsWith('P');
+  console.log(task_9_1, task_9_2, task_9_3);
+
+  const replaceWord = greeting.replace('name', '****');
+  console.log(replaceWord);
+
+  console.log(greeting.indexOf('y'));
 }
