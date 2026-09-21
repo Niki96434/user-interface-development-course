@@ -15,7 +15,7 @@ const d = "   My name is   ";
 10. Замените первое вхождение "name" на "****".
 11. Определите позицию символа "y" в строке. **/
 
-export default function secondTask() {
+function secondTask() {
   let d = '   My name is   ';
   console.log(d);
 
@@ -62,3 +62,5 @@ export default function secondTask() {
 
   console.log(greeting.indexOf('y'));
 }
+
+export default secondTask;

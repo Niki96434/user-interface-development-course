@@ -14,7 +14,7 @@
 11. Продемонстрируйте проблему точности: вычислите 0.1 + 0.2 и сравните результат с 0.3 через ===.
 12. Создайте значение BigInt 9007199254740993n и прибавьте к нему 10n. Объясните, почему нельзя прибавить обычное число 10 без преобразования.
 **/
-export default function firstTask() {
+function firstTask() {
   try {
     let a = 10;
     const b = 30;
@@ -58,3 +58,5 @@ export default function firstTask() {
     console.log(err);
   }
 }
+
+export default firstTask;
