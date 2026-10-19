@@ -33,12 +33,12 @@ console.log(res4);
 //5
 function sum(...numbers) {
   let sumResult = 0;
-  for (let i = 0; i <= numbers.length; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     i += numbers[i];
   }
 
-  console.log(sumResult);
+  return sumResult;
 }
 
-const res5 = sum([1, 2, 3, 4, 5, 6]);
+const res5 = sum(1, 2, 3, 4, 5, 6);
 console.log(res5);
